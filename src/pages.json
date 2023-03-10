@@ -1,0 +1,228 @@
+{
+	"pages": [{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/common/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/message/detail",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/userInfo/index",
+			"style": {
+				"navigationBarTitleText": "基础信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/userInfo/update",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"mp-weixin": {
+					"titleNView": {
+						"buttons": [{
+							"text": "保存",
+							"type": "none",
+							"fontSize": "16px",
+							"color": "#007aff"
+						}]
+					}
+				},
+				"h5": {
+					"titleNView": {
+						"buttons": [{
+							"text": "保存",
+							"type": "none",
+							"fontSize": "16px",
+							"color": "#007aff"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/wage/index",
+			"style": {
+				"navigationBarTitleText": "我的工资",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/wage/detail",
+			"style": {
+				"navigationBarTitleText": "工资详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/rule/manager/index",
+			"style": {
+				"navigationBarTitleText": "管理制度",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/rule/manager/detail",
+			"style": {
+				"navigationBarTitleText": "管理制度详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/rule/constructionPlan/index",
+			"style": {
+				"navigationBarTitleText": "施工方案",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/rule/constructionPlan/detail",
+			"style": {
+				"navigationBarTitleText": "施工方案详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/rule/riskSource/index",
+			"style": {
+				"navigationBarTitleText": "风险源",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/rule/riskSource/detail",
+			"style": {
+				"navigationBarTitleText": "风险详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/rule/hiddenDanger/index",
+			"style": {
+				"navigationBarTitleText": "隐患库",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/rule/hiddenDanger/detail",
+			"style": {
+				"navigationBarTitleText": "隐患详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/rule/hiddenDanger/create",
+			"style": {
+				"navigationBarTitleText": "添加隐患",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/projectManager/sign/index",
+			"style": {
+				"navigationBarTitleText": "打卡",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/projectManager/progress/index",
+			"style": {
+				"navigationBarTitleText": "项目进度",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/projectManager/progress/subProgress/index",
+			"style": {
+				"navigationBarTitleText": "任务进度",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/projectManager/inspect/index",
+			"style": {
+				"navigationBarTitleText": "现场检查",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/projectManager/inspect/check",
+			"style": {
+				"navigationBarTitleText": "现场检查",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/projectManager/summary/index",
+			"style": {
+				"navigationBarTitleText": "会议纪要",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"color": "#666666",
+		"selectedColor": "#3ca960",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/images/tabBar/home.png",
+				"selectedIconPath": "static/images/tabBar/home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/message/index",
+				"iconPath": "static/images/tabBar/message.png",
+				"selectedIconPath": "static/images/tabBar/message_active.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/images/tabBar/user.png",
+				"selectedIconPath": "static/images/tabBar/user_active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	}
+}
